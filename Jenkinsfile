@@ -1,5 +1,6 @@
 #!groovy
-node('EJ2Angularsbnode18') {
+
+node('EJ2Node20') {
     try {
         deleteDir()
 
@@ -15,6 +16,7 @@ node('EJ2Angularsbnode18') {
         }
 
         stage('Install') {
+            sh 'npm i -g gulp@^4.0.2'
             sh 'npm install'
         }
 
