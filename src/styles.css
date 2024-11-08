@@ -1,0 +1,44 @@
+
+@import './assets/dbstyle/diagrambuilder.css';
+/* @import '../assets/db-icons1/style.css'; */
+@import './assets/index.css';
+@import './assets/Diagram_Builder_icon_v4/Diagram_Builder_Icon/style.css';
+
+/* You can add global styles to this file, and also import other style files */
+.e-file-select-wrap {
+    display: none;
+    }
+#designContextMenu,#toolsContextMenu{
+    width: 100px !important;
+}
+#editContextMenu{
+    width: 120px !important;
+}
+/* .editMenu{
+    width: 120px;
+} */
+#hideProperty{
+    width: 28px;
+    height: 28px;
+    margin-left: 30px;
+    margin-bottom: 7px !important;
+}
+.db-toolbar-container{
+    width: 100%!important;
+}
+.close{
+    float: right;
+    border-color: #b5b5b5;
+}
+#js-licensing{
+    display: none;
+}   
+.pan-item{
+    margin-left: 3px;
+} 
+.designMenu .e-contextmenu.e-menu-parent{
+    width: auto!important;
+}
+.insertMenu .e-contextmenu.e-menu-parent{
+    width: auto!important;
+}
